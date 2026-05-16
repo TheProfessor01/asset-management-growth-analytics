@@ -1,0 +1,285 @@
+client_id,advisor_id,advisor_name,team,region,client_segment,age_band,household_income_band,risk_tolerance,client_status,latest_assets,last_contact_date,last_meeting_date,days_since_last_contact,trailing_3_month_net_flows,at_risk_flag
+1,24,Advisor 24,Retirement Specialists,Southeast,Mass Affluent,Under 35,$350K+,Moderate,Active,705039.62,2025-08-14,2025-08-14,109,-2187.8000000000006,1
+2,8,Advisor 08,Acquisition,West,Core,Under 35,$100K-$199K,Moderate,Active,236942.09,2024-09-09,2024-09-09,448,-382.87999999999965,1
+3,9,Advisor 09,Retirement Specialists,Southeast,Emerging,35-44,Under $100K,Growth,Active,61700.32,2025-03-28,,248,2769.1,1
+4,8,Advisor 08,Acquisition,West,Emerging,45-54,$200K-$349K,Growth,Active,36988.31,2025-05-29,2025-05-29,186,782.94,1
+5,7,Advisor 07,Retirement Specialists,Midwest,Emerging,55-64,$350K+,Growth,Active,89213.02,2025-10-25,,37,3519.52,0
+6,18,Advisor 18,Retirement Specialists,West,Mass Affluent,55-64,$200K-$349K,Moderate,Active,404151.77,2025-05-23,2025-05-23,192,36745.56,1
+7,1,Advisor 01,Acquisition,Midwest,Core,45-54,$200K-$349K,Growth,Active,347715.33,2024-06-17,,532,15737.39,1
+8,10,Advisor 10,Retirement Specialists,Northeast,Core,65+,$200K-$349K,Moderate,Active,384263.51,2024-12-06,,360,6739.47,1
+9,2,Advisor 02,Acquisition,West,Core,55-64,$350K+,Moderate,Active,229913.06,2024-03-03,,638,1654.5100000000002,1
+10,14,Advisor 14,Relationship Growth,Midwest,Core,45-54,Under $100K,Moderate,Active,287302.19,2024-10-26,2024-10-23,401,5065.89,1
+11,3,Advisor 03,Acquisition,Southeast,Mass Affluent,55-64,$100K-$199K,Growth,Active,691440.0700000001,2025-06-26,,158,21692.65,1
+12,19,Advisor 19,Relationship Growth,West,Mass Affluent,65+,$100K-$199K,Moderate,Active,406197.05,2025-11-28,2025-11-28,3,16824.78,0
+13,20,Advisor 20,Relationship Growth,Southeast,Mass Affluent,55-64,$200K-$349K,Moderate,Active,540349.01,2024-06-22,,527,36860.740000000005,1
+14,10,Advisor 10,Retirement Specialists,Northeast,Emerging,45-54,$200K-$349K,Moderate,Active,81559.01999999999,2025-02-16,2025-02-16,288,2061.56,1
+15,9,Advisor 09,Retirement Specialists,Southeast,Mass Affluent,45-54,Under $100K,Conservative,Active,1184197.4300000002,2024-02-13,,657,57910.49,1
+16,23,Advisor 23,Retirement Specialists,Northeast,Emerging,45-54,$100K-$199K,Moderate,Active,51831.09,2024-03-15,,626,2043.08,1
+17,10,Advisor 10,Retirement Specialists,Northeast,Mass Affluent,45-54,$350K+,Growth,Active,837435.16,2025-07-23,2025-07-23,131,9833.489999999998,1
+18,4,Advisor 04,Relationship Growth,West,Mass Affluent,35-44,$100K-$199K,Growth,Active,358024.71,,,,-4463.139999999999,1
+19,10,Advisor 10,Retirement Specialists,Northeast,High Value,55-64,$200K-$349K,Conservative,Active,1338480.25,2024-02-26,2024-02-26,644,95993.38,1
+20,8,Advisor 08,Acquisition,West,Core,55-64,$200K-$349K,Conservative,Active,143323.86,2024-09-20,2024-09-20,437,5296.02,1
+21,1,Advisor 01,Acquisition,Midwest,Core,55-64,$100K-$199K,Moderate,Active,95456.01999999999,2025-03-18,2025-03-16,258,2417.2599999999998,1
+22,12,Advisor 12,Retirement Specialists,Northeast,High Value,55-64,$200K-$349K,Conservative,Active,2765079.9,2024-03-30,2024-03-30,611,227002.24,1
+23,20,Advisor 20,Relationship Growth,Southeast,Core,65+,$350K+,Moderate,Active,169432.33000000002,2025-10-26,2025-10-26,36,3142.35,0
+24,21,Advisor 21,High Value,West,Core,35-44,$200K-$349K,Moderate,Active,210602.99,2024-08-08,2024-08-08,480,-1445.8299999999997,1
+25,21,Advisor 21,High Value,West,Mass Affluent,45-54,$200K-$349K,Growth,Active,1136137.33,2024-06-01,2024-06-01,548,43727.530000000006,1
+26,3,Advisor 03,Acquisition,Southeast,Core,Under 35,Under $100K,Aggressive,Active,225662.47999999998,2024-02-04,,666,17244.64,1
+27,11,Advisor 11,High Value,Midwest,Emerging,55-64,Under $100K,Conservative,Active,55587.16,2024-06-28,2024-06-28,521,2487.14,1
+28,22,Advisor 22,Acquisition,Northeast,Emerging,Under 35,$200K-$349K,Moderate,Active,46807.69,2024-11-08,2024-11-08,388,1321.49,1
+29,13,Advisor 13,Relationship Growth,Southeast,Core,45-54,$100K-$199K,Moderate,Active,126514.51999999999,2025-11-30,,1,4454.58,0
+30,14,Advisor 14,Relationship Growth,Midwest,Mass Affluent,35-44,$200K-$349K,Growth,Active,334805.79,2025-10-06,2025-10-06,56,-8102.51,1
+31,22,Advisor 22,Acquisition,Northeast,Core,45-54,$100K-$199K,Moderate,Active,262311.35,2024-02-02,2024-01-28,668,529.5999999999999,1
+32,3,Advisor 03,Acquisition,Southeast,Emerging,Under 35,$200K-$349K,Moderate,Active,80702.53,2024-05-24,,556,1706.3400000000001,1
+33,16,Advisor 16,Retirement Specialists,Southeast,Emerging,55-64,$200K-$349K,Conservative,Active,77258.71,2025-06-07,,177,3627.48,1
+34,4,Advisor 04,Relationship Growth,West,High Value,55-64,$100K-$199K,Growth,Active,2832533.13,2025-03-18,2025-03-06,258,-26026.289999999997,1
+35,17,Advisor 17,High Value,Southeast,Core,55-64,$100K-$199K,Growth,Active,396224.9,2024-06-19,,530,32509.37,1
+36,23,Advisor 23,Retirement Specialists,Northeast,Emerging,55-64,$100K-$199K,Aggressive,Active,46533.81,2024-04-17,2024-04-17,593,1800.71,1
+37,3,Advisor 03,Acquisition,Southeast,High Value,45-54,$100K-$199K,Conservative,Active,3010316.48,2024-10-27,2024-10-27,400,156859.52000000002,1
+38,9,Advisor 09,Retirement Specialists,Southeast,Core,55-64,$200K-$349K,Growth,Active,180431.95,2025-08-01,2025-08-01,122,11831.77,1
+39,22,Advisor 22,Acquisition,Northeast,Emerging,45-54,Under $100K,Moderate,Active,76547.42,2024-07-24,2024-07-24,495,4367.3,1
+40,20,Advisor 20,Relationship Growth,Southeast,Core,35-44,$100K-$199K,Moderate,Active,158010.7,2024-07-02,2024-07-02,517,5971.41,1
+41,17,Advisor 17,High Value,Southeast,Mass Affluent,35-44,$350K+,Moderate,Active,556942.1,2025-11-25,2025-11-25,6,15437.57,0
+42,8,Advisor 08,Acquisition,West,Mass Affluent,45-54,$100K-$199K,Moderate,Active,508114.96,2025-04-01,,244,34451.47,1
+43,6,Advisor 06,Retirement Specialists,Northeast,High Value,65+,$350K+,Moderate,Active,1576724.95,2025-02-22,,282,167090.44,1
+44,13,Advisor 13,Relationship Growth,Southeast,Mass Affluent,45-54,$100K-$199K,Growth,Active,434725.87,2025-01-02,2025-01-02,333,19908.48,1
+45,8,Advisor 08,Acquisition,West,Emerging,35-44,$200K-$349K,Moderate,Active,0,2025-11-30,2025-11-30,1,0,0
+46,5,Advisor 05,Relationship Growth,West,Core,55-64,Under $100K,Moderate,Active,0,2026-01-10,2026-01-10,-40,0,0
+47,22,Advisor 22,Acquisition,Northeast,Mass Affluent,65+,$200K-$349K,Aggressive,Active,1088783.96,2024-07-31,2024-07-31,488,42368.08,1
+48,21,Advisor 21,High Value,West,Core,45-54,Under $100K,Conservative,Active,203944.32,2025-12-06,2025-11-29,-5,-4240.59,1
+49,2,Advisor 02,Acquisition,West,Emerging,35-44,Under $100K,Moderate,Active,104678.13,,,,-1097.0699999999997,1
+50,13,Advisor 13,Relationship Growth,Southeast,Emerging,55-64,Under $100K,Moderate,Active,103269.04,2025-02-21,2025-02-21,283,-2255.5099999999998,1
+51,21,Advisor 21,High Value,West,Emerging,35-44,$200K-$349K,Aggressive,Active,43101.850000000006,2025-05-21,2025-05-21,194,1034.23,1
+52,15,Advisor 15,Acquisition,Midwest,Emerging,55-64,$200K-$349K,Moderate,Active,60684.27,2024-04-08,,602,-692.0799999999999,1
+53,6,Advisor 06,Retirement Specialists,Northeast,Core,55-64,$350K+,Conservative,Active,175107.53,2025-02-17,2025-02-16,287,1646.19,1
+54,12,Advisor 12,Retirement Specialists,Northeast,Emerging,35-44,$200K-$349K,Moderate,Active,36369.619999999995,2024-11-11,2024-11-11,385,1018.95,1
+55,14,Advisor 14,Relationship Growth,Midwest,Emerging,45-54,Under $100K,Growth,Active,83141.27,2025-08-30,,93,142.83999999999992,0
+56,24,Advisor 24,Retirement Specialists,Southeast,Emerging,65+,$200K-$349K,Growth,Active,30737.309999999998,2025-08-04,2025-07-29,119,1390.48,0
+57,5,Advisor 05,Relationship Growth,West,High Value,55-64,$200K-$349K,Moderate,Active,3445898.0,2024-04-28,,582,359880.91000000003,1
+58,24,Advisor 24,Retirement Specialists,Southeast,High Value,35-44,$100K-$199K,Growth,Active,2717297.9299999997,2024-04-10,2024-04-03,600,59966.22,1
+59,17,Advisor 17,High Value,Southeast,Core,35-44,Under $100K,Growth,Active,177512.5,2024-02-14,2024-02-14,656,5012.0,1
+60,24,Advisor 24,Retirement Specialists,Southeast,Core,45-54,$100K-$199K,Moderate,Active,256091.16,2025-06-13,2025-06-12,171,5564.36,1
+61,10,Advisor 10,Retirement Specialists,Northeast,High Value,55-64,$100K-$199K,Conservative,Active,3478758.52,2024-03-21,,620,41900.399999999994,1
+62,21,Advisor 21,High Value,West,Mass Affluent,35-44,$100K-$199K,Moderate,Active,550130.28,2024-09-06,2024-09-06,451,24983.35,1
+63,19,Advisor 19,Relationship Growth,West,Emerging,55-64,$100K-$199K,Conservative,Active,80411.32,2025-11-26,2025-11-10,5,58.04,0
+64,3,Advisor 03,Acquisition,Southeast,Emerging,35-44,$100K-$199K,Moderate,Active,103329.44,2025-07-27,2025-07-27,127,10007.24,1
+65,22,Advisor 22,Acquisition,Northeast,Emerging,65+,$100K-$199K,Moderate,Active,71752.41,2024-11-02,2024-10-19,394,2126.0499999999997,1
+66,24,Advisor 24,Retirement Specialists,Southeast,High Value,45-54,Under $100K,Aggressive,Active,2589603.89,2024-08-21,2024-08-21,467,211171.58000000002,1
+67,24,Advisor 24,Retirement Specialists,Southeast,Emerging,35-44,$350K+,Moderate,Active,77266.06,2025-03-07,2025-03-04,269,1844.81,1
+68,24,Advisor 24,Retirement Specialists,Southeast,Core,55-64,$100K-$199K,Moderate,Active,527122.07,2024-06-13,2024-06-13,536,22255.899999999998,1
+69,22,Advisor 22,Acquisition,Northeast,Mass Affluent,55-64,$100K-$199K,Growth,Active,388239.49,2025-09-24,2025-09-24,68,-132.02000000000044,1
+70,23,Advisor 23,Retirement Specialists,Northeast,Emerging,35-44,$350K+,Moderate,Active,117871.95999999999,2024-12-09,2024-12-09,357,5220.41,1
+71,1,Advisor 01,Acquisition,Midwest,Emerging,Under 35,$100K-$199K,Aggressive,Active,65971.69,2025-08-23,2025-08-23,100,5124.82,0
+72,22,Advisor 22,Acquisition,Northeast,Core,35-44,$100K-$199K,Aggressive,Active,215181.84,2024-03-11,2024-03-11,630,-2170.9300000000003,1
+73,22,Advisor 22,Acquisition,Northeast,Emerging,55-64,$200K-$349K,Growth,Active,68065.28,2025-10-04,2025-10-04,58,2273.72,0
+74,5,Advisor 05,Relationship Growth,West,High Value,65+,$100K-$199K,Aggressive,Active,1544576.5299999998,2025-02-24,,280,31031.16,1
+75,22,Advisor 22,Acquisition,Northeast,Core,35-44,$100K-$199K,Growth,Active,113846.46,2025-08-09,,114,1099.4000000000003,0
+76,5,Advisor 05,Relationship Growth,West,Core,35-44,$100K-$199K,Moderate,Active,201411.9,2025-05-18,2025-05-18,197,-5088.7300000000005,1
+77,7,Advisor 07,Retirement Specialists,Midwest,Core,65+,$100K-$199K,Moderate,Active,400179.02,2024-02-05,2024-02-05,665,34986.96,1
+78,12,Advisor 12,Retirement Specialists,Northeast,Emerging,55-64,Under $100K,Moderate,Active,54703.39,2025-11-13,,18,-38.94999999999993,1
+79,6,Advisor 06,Retirement Specialists,Northeast,Emerging,45-54,$100K-$199K,Moderate,Active,90970.94,2024-03-19,,622,4697.51,1
+80,7,Advisor 07,Retirement Specialists,Midwest,Emerging,45-54,$350K+,Moderate,Active,108163.16,2024-08-02,2024-08-01,486,-1.1600000000000819,1
+81,15,Advisor 15,Acquisition,Midwest,Mass Affluent,Under 35,$100K-$199K,Conservative,Active,326696.18,2024-07-13,2024-07-13,506,11705.15,1
+82,2,Advisor 02,Acquisition,West,Emerging,45-54,$100K-$199K,Conservative,Active,162218.61,2024-05-04,,576,4220.34,1
+83,19,Advisor 19,Relationship Growth,West,Mass Affluent,45-54,$100K-$199K,Moderate,Active,505958.33,2025-11-18,2025-11-18,13,-12683.96,1
+84,8,Advisor 08,Acquisition,West,Core,Under 35,$100K-$199K,Moderate,Active,150471.96,2024-06-24,,525,2955.6499999999996,1
+85,10,Advisor 10,Retirement Specialists,Northeast,Mass Affluent,55-64,$100K-$199K,Moderate,Active,609687.5,2024-08-09,,479,36107.07,1
+86,19,Advisor 19,Relationship Growth,West,Emerging,55-64,$100K-$199K,Moderate,Active,96025.87,2024-06-21,2024-06-21,528,4060.91,1
+87,17,Advisor 17,High Value,Southeast,Mass Affluent,45-54,$350K+,Moderate,Active,332226.01,2025-02-28,,276,24504.77,1
+88,24,Advisor 24,Retirement Specialists,Southeast,Emerging,45-54,$350K+,Moderate,Active,55779.37,2025-02-09,,295,1357.6,1
+89,17,Advisor 17,High Value,Southeast,High Value,35-44,$200K-$349K,Moderate,Active,3206598.8,2025-10-06,2025-10-06,56,212248.16,0
+90,16,Advisor 16,Retirement Specialists,Southeast,Core,65+,$200K-$349K,Growth,Active,174702.7,2024-06-07,,542,-1729.21,1
+91,12,Advisor 12,Retirement Specialists,Northeast,Emerging,Under 35,$350K+,Growth,Active,107370.07,2024-09-10,2024-09-10,447,4673.47,1
+92,22,Advisor 22,Acquisition,Northeast,Core,55-64,$100K-$199K,Moderate,Active,150673.54,2025-01-14,2025-01-14,321,15451.09,1
+93,21,Advisor 21,High Value,West,Core,65+,$100K-$199K,Moderate,Active,138406.40000000002,2025-08-01,,122,2432.08,1
+94,15,Advisor 15,Acquisition,Midwest,High Value,45-54,$100K-$199K,Moderate,Active,1661496.44,2025-04-20,,225,171261.4,1
+95,9,Advisor 09,Retirement Specialists,Southeast,Core,45-54,$350K+,Growth,Active,148911.18,2025-12-02,,-1,-1154.67,1
+96,22,Advisor 22,Acquisition,Northeast,Core,65+,$100K-$199K,Moderate,Active,293035.53,2024-05-29,2024-05-29,551,5717.290000000001,1
+97,17,Advisor 17,High Value,Southeast,Emerging,55-64,Under $100K,Moderate,Active,85557.69,2024-02-27,2024-02-27,643,2253.72,1
+98,8,Advisor 08,Acquisition,West,Emerging,65+,$200K-$349K,Conservative,Active,90053.96,2025-07-03,,151,-2533.2799999999997,1
+99,13,Advisor 13,Relationship Growth,Southeast,High Value,65+,$200K-$349K,Conservative,Active,2772728.98,2025-11-27,2025-11-12,4,44595.63,0
+100,15,Advisor 15,Acquisition,Midwest,Emerging,65+,$200K-$349K,Moderate,Active,70827.57,2024-12-02,,364,733.48,1
+101,24,Advisor 24,Retirement Specialists,Southeast,Core,35-44,$200K-$349K,Growth,Active,0,2026-01-30,2026-01-30,-60,0,0
+102,3,Advisor 03,Acquisition,Southeast,Mass Affluent,55-64,Under $100K,Growth,Active,1118358.85,2024-02-05,,665,-2407.8799999999997,1
+103,24,Advisor 24,Retirement Specialists,Southeast,High Value,35-44,$100K-$199K,Moderate,Active,4131799.14,2024-07-15,,504,200828.84,1
+104,10,Advisor 10,Retirement Specialists,Northeast,Core,45-54,$100K-$199K,Growth,Active,335909.34,2025-02-11,2025-02-11,293,19234.649999999998,1
+105,11,Advisor 11,High Value,Midwest,Mass Affluent,65+,$100K-$199K,Moderate,Active,1139366.9,2025-05-20,,195,65284.689999999995,1
+106,24,Advisor 24,Retirement Specialists,Southeast,Emerging,Under 35,$350K+,Growth,Active,73958.83,2024-12-16,2024-12-09,350,333.75,1
+107,20,Advisor 20,Relationship Growth,Southeast,High Value,55-64,$200K-$349K,Moderate,Active,2971830.08,2025-07-07,,147,168768.38999999998,1
+108,11,Advisor 11,High Value,Midwest,Core,65+,$100K-$199K,Moderate,Active,0,2026-01-16,,-46,0,0
+109,24,Advisor 24,Retirement Specialists,Southeast,Core,45-54,$100K-$199K,Aggressive,Active,274390.05,2024-06-05,2024-06-05,544,15786.609999999999,1
+110,19,Advisor 19,Relationship Growth,West,Core,65+,$100K-$199K,Growth,Active,141650.12,2025-07-27,,127,10893.0,1
+111,22,Advisor 22,Acquisition,Northeast,Emerging,65+,$100K-$199K,Moderate,Active,23178.19,2025-06-27,2025-06-13,157,26.410000000000025,1
+112,12,Advisor 12,Retirement Specialists,Northeast,Emerging,Under 35,$200K-$349K,Moderate,Active,42260.92,2024-02-28,,642,517.46,1
+113,2,Advisor 02,Acquisition,West,Emerging,65+,$100K-$199K,Moderate,Active,44524.82,2025-12-03,2025-12-03,-2,-628.88,1
+114,3,Advisor 03,Acquisition,Southeast,High Value,Under 35,$350K+,Moderate,Active,2957011.17,2025-02-03,2025-01-26,301,156286.7,1
+115,4,Advisor 04,Relationship Growth,West,Mass Affluent,65+,$100K-$199K,Growth,Active,335229.07,2024-09-06,,451,13620.28,1
+116,22,Advisor 22,Acquisition,Northeast,Mass Affluent,45-54,$100K-$199K,Moderate,Active,635369.0,2025-10-03,2025-10-03,59,7210.28,0
+117,5,Advisor 05,Relationship Growth,West,Emerging,45-54,$100K-$199K,Moderate,Active,168473.53,2024-11-01,2024-10-25,395,11275.18,1
+118,11,Advisor 11,High Value,Midwest,Core,45-54,Under $100K,Moderate,Active,0,2026-01-04,,-34,0,0
+119,19,Advisor 19,Relationship Growth,West,Core,55-64,$100K-$199K,Conservative,Active,308136.64,2024-02-11,,659,14232.21,1
+120,24,Advisor 24,Retirement Specialists,Southeast,Emerging,35-44,$200K-$349K,Moderate,Active,143445.51,2025-02-15,,289,-1095.4300000000003,1
+121,1,Advisor 01,Acquisition,Midwest,Emerging,Under 35,Under $100K,Growth,Active,46806.49,2024-07-10,2024-07-04,509,2504.6099999999997,1
+122,8,Advisor 08,Acquisition,West,Emerging,65+,$100K-$199K,Growth,Active,61670.73,2025-10-04,2025-09-25,58,3832.64,0
+123,19,Advisor 19,Relationship Growth,West,Core,65+,$100K-$199K,Moderate,Active,355369.36,2024-06-10,,539,-3763.16,1
+124,21,Advisor 21,High Value,West,Emerging,35-44,Under $100K,Growth,Active,30569.14,2025-05-24,2025-05-24,191,-129.02000000000004,1
+125,13,Advisor 13,Relationship Growth,Southeast,High Value,35-44,Under $100K,Moderate,Active,2090296.69,2024-09-02,2024-09-02,455,37838.94,1
+126,8,Advisor 08,Acquisition,West,Mass Affluent,Under 35,$100K-$199K,Moderate,Active,1132871.65,2025-02-22,2025-02-22,282,13681.409999999996,1
+127,6,Advisor 06,Retirement Specialists,Northeast,Core,45-54,$100K-$199K,Conservative,Active,387929.92,,,,19252.64,1
+128,10,Advisor 10,Retirement Specialists,Northeast,Core,45-54,Under $100K,Growth,Active,152774.79,2024-05-24,2024-05-24,556,1577.79,1
+129,13,Advisor 13,Relationship Growth,Southeast,Core,45-54,Under $100K,Aggressive,Active,131938.91,2025-09-13,2025-09-11,79,4161.4400000000005,0
+130,9,Advisor 09,Retirement Specialists,Southeast,Emerging,45-54,$100K-$199K,Moderate,Active,78268.35,2025-03-13,2025-03-13,263,-1929.78,1
+131,5,Advisor 05,Relationship Growth,West,High Value,45-54,Under $100K,Conservative,Active,0,2025-12-29,,-28,0,1
+132,23,Advisor 23,Retirement Specialists,Northeast,Emerging,55-64,$100K-$199K,Moderate,Active,61202.24,2025-03-11,,265,1328.61,1
+133,15,Advisor 15,Acquisition,Midwest,Mass Affluent,55-64,$200K-$349K,Growth,Active,0,2025-11-29,2025-11-29,2,0,0
+134,1,Advisor 01,Acquisition,Midwest,Emerging,45-54,Under $100K,Conservative,Active,0,2025-12-31,,-30,0,0
+135,2,Advisor 02,Acquisition,West,Mass Affluent,45-54,$100K-$199K,Growth,Active,0,2025-11-21,2025-11-21,10,0,0
+136,17,Advisor 17,High Value,Southeast,Core,45-54,Under $100K,Moderate,Active,246889.13,2025-11-25,2025-11-25,6,-4269.37,1
+137,17,Advisor 17,High Value,Southeast,Core,55-64,$200K-$349K,Conservative,Active,197901.77,2024-06-24,2024-06-24,525,870.4100000000004,1
+138,8,Advisor 08,Acquisition,West,Core,55-64,$350K+,Conservative,Active,176179.2,2025-12-02,,-1,5721.29,0
+139,14,Advisor 14,Relationship Growth,Midwest,High Value,55-64,$100K-$199K,Moderate,Active,2354671.65,2025-07-31,2025-07-31,123,210651.36,1
+140,8,Advisor 08,Acquisition,West,Emerging,Under 35,$350K+,Growth,Active,48352.41,2025-03-13,2025-03-13,263,1835.61,1
+141,8,Advisor 08,Acquisition,West,Core,45-54,$100K-$199K,Aggressive,Active,285225.45,2024-06-21,2024-06-21,528,10595.49,1
+142,21,Advisor 21,High Value,West,Mass Affluent,45-54,Under $100K,Conservative,Active,1343782.67,2025-03-17,,259,79024.7,1
+143,4,Advisor 04,Relationship Growth,West,Emerging,45-54,$100K-$199K,Aggressive,Active,93431.61,2025-05-07,,208,561.27,1
+144,13,Advisor 13,Relationship Growth,Southeast,Mass Affluent,35-44,$100K-$199K,Growth,Active,831578.73,2025-10-20,2025-10-07,42,15378.280000000002,0
+145,19,Advisor 19,Relationship Growth,West,Mass Affluent,45-54,$100K-$199K,Growth,Active,296485.43,2024-05-05,2024-05-05,575,9097.210000000001,1
+146,17,Advisor 17,High Value,Southeast,Mass Affluent,65+,Under $100K,Moderate,Active,0,2026-01-08,2026-01-04,-38,0,0
+147,22,Advisor 22,Acquisition,Northeast,High Value,65+,$350K+,Moderate,Active,3683665.31,2025-08-12,2025-08-12,111,371163.61,0
+148,2,Advisor 02,Acquisition,West,Mass Affluent,55-64,$350K+,Growth,Active,489298.33,2025-07-30,,124,7354.599999999999,1
+149,19,Advisor 19,Relationship Growth,West,Emerging,35-44,Under $100K,Conservative,Active,27391.9,2025-01-26,2025-01-26,309,853.39,1
+150,23,Advisor 23,Retirement Specialists,Northeast,Emerging,35-44,Under $100K,Growth,Active,38120.86,2025-09-02,,90,796.77,0
+151,3,Advisor 03,Acquisition,Southeast,Core,45-54,Under $100K,Moderate,Active,257921.88,2024-08-14,2024-08-14,474,-5114.47,1
+152,19,Advisor 19,Relationship Growth,West,Emerging,35-44,$350K+,Conservative,Active,58452.15,2025-06-15,2025-06-15,169,962.39,1
+153,22,Advisor 22,Acquisition,Northeast,Emerging,65+,$350K+,Moderate,Active,98342.14,2024-06-18,,531,1284.74,1
+154,18,Advisor 18,Retirement Specialists,West,Core,55-64,$100K-$199K,Moderate,Active,166516.13,2024-08-27,,461,-3917.0699999999997,1
+155,8,Advisor 08,Acquisition,West,High Value,55-64,$100K-$199K,Moderate,Active,1635453.79,2024-08-31,,457,10512.900000000001,1
+156,21,Advisor 21,High Value,West,Core,65+,$200K-$349K,Moderate,Active,182290.68,2024-08-06,2024-07-22,482,4055.67,1
+157,16,Advisor 16,Retirement Specialists,Southeast,Mass Affluent,65+,$200K-$349K,Growth,Active,346220.92,2024-05-11,2024-05-11,569,-6346.35,1
+158,20,Advisor 20,Relationship Growth,Southeast,Mass Affluent,55-64,Under $100K,Moderate,Active,810378.19,2025-09-15,2025-09-13,77,5924.0199999999995,0
+159,2,Advisor 02,Acquisition,West,Mass Affluent,45-54,$350K+,Moderate,Active,1378348.9,2024-12-19,2024-12-18,347,31261.12,1
+160,12,Advisor 12,Retirement Specialists,Northeast,Core,55-64,$100K-$199K,Conservative,Active,154509.89,2025-04-06,,239,3148.33,1
+161,2,Advisor 02,Acquisition,West,Core,65+,Under $100K,Aggressive,Active,326097.99,2025-06-07,,177,630.7799999999995,1
+162,12,Advisor 12,Retirement Specialists,Northeast,Core,Under 35,$350K+,Moderate,Active,190892.86,2025-08-17,2025-08-17,106,12242.7,0
+163,6,Advisor 06,Retirement Specialists,Northeast,High Value,55-64,Under $100K,Aggressive,Active,2642825.51,2025-07-27,,127,80742.26,1
+164,20,Advisor 20,Relationship Growth,Southeast,Core,55-64,$350K+,Moderate,Active,315648.63,2025-02-12,,292,12597.28,1
+165,7,Advisor 07,Retirement Specialists,Midwest,Mass Affluent,Under 35,$200K-$349K,Moderate,Active,316373.43,2025-08-08,,115,8622.33,0
+166,12,Advisor 12,Retirement Specialists,Northeast,Emerging,35-44,Under $100K,Growth,Active,91468.14,2025-08-20,,103,2810.97,0
+167,22,Advisor 22,Acquisition,Northeast,Emerging,55-64,Under $100K,Moderate,Active,70264.67,2025-02-04,,300,1317.91,1
+168,9,Advisor 09,Retirement Specialists,Southeast,Emerging,55-64,$100K-$199K,Moderate,Active,35982.270000000004,2024-05-10,2024-05-10,570,-819.77,1
+169,11,Advisor 11,High Value,Midwest,Emerging,65+,Under $100K,Growth,Active,56615.38,2025-03-09,,267,227.76000000000008,1
+170,4,Advisor 04,Relationship Growth,West,Core,55-64,$100K-$199K,Conservative,Active,151273.49,2025-07-19,2025-07-17,135,4564.63,1
+171,24,Advisor 24,Retirement Specialists,Southeast,Emerging,35-44,Under $100K,Growth,Active,127719.01000000001,2024-10-09,,418,4186.26,1
+172,5,Advisor 05,Relationship Growth,West,Emerging,55-64,$100K-$199K,Moderate,Active,44380.41,2024-07-25,2024-07-25,494,1676.18,1
+173,24,Advisor 24,Retirement Specialists,Southeast,Core,55-64,$350K+,Moderate,Active,335350.23,2025-09-08,,84,9273.36,0
+174,21,Advisor 21,High Value,West,Emerging,55-64,$100K-$199K,Moderate,Active,41026.48,2025-11-14,2025-11-14,17,-297.77,1
+175,19,Advisor 19,Relationship Growth,West,Core,35-44,Under $100K,Moderate,Active,284721.92,2025-07-19,2025-07-19,135,-556.8200000000002,1
+176,16,Advisor 16,Retirement Specialists,Southeast,Core,35-44,$100K-$199K,Conservative,Active,127435.5,2024-06-22,,527,-1320.6200000000001,1
+177,4,Advisor 04,Relationship Growth,West,High Value,45-54,Under $100K,Growth,Active,1868425.16,2025-06-19,2025-06-16,165,85662.73,1
+178,6,Advisor 06,Retirement Specialists,Northeast,Emerging,65+,$100K-$199K,Conservative,Active,79952.24,2025-05-29,2025-05-29,186,1275.06,1
+179,22,Advisor 22,Acquisition,Northeast,Core,Under 35,$200K-$349K,Moderate,Active,122795.25,2025-09-06,,86,-6507.9,1
+180,13,Advisor 13,Relationship Growth,Southeast,Emerging,55-64,$350K+,Growth,Active,34251.5,2024-09-29,2024-09-12,428,626.94,1
+181,9,Advisor 09,Retirement Specialists,Southeast,Emerging,65+,$200K-$349K,Growth,Active,67524.48,2025-11-02,2025-11-02,29,2625.92,0
+182,24,Advisor 24,Retirement Specialists,Southeast,Emerging,45-54,$200K-$349K,Conservative,Active,56997.46,2025-11-22,2025-11-14,9,-515.17,1
+183,12,Advisor 12,Retirement Specialists,Northeast,Core,55-64,Under $100K,Moderate,Active,148583.27,2024-08-18,2024-08-18,470,-204.70000000000027,1
+184,17,Advisor 17,High Value,Southeast,Core,45-54,Under $100K,Moderate,Active,207625.89,2025-07-11,,143,-3036.81,1
+185,3,Advisor 03,Acquisition,Southeast,Core,55-64,$100K-$199K,Growth,Active,234736.95,2024-06-13,2024-06-13,536,8503.599999999999,1
+186,12,Advisor 12,Retirement Specialists,Northeast,High Value,65+,$100K-$199K,Conservative,Active,2740238.62,2025-05-02,,213,109699.91,1
+187,19,Advisor 19,Relationship Growth,West,Emerging,65+,$100K-$199K,Moderate,Active,87891.18,2025-10-15,,47,3668.52,0
+188,17,Advisor 17,High Value,Southeast,Mass Affluent,35-44,$100K-$199K,Moderate,Active,751204.23,2025-08-12,,111,14420.92,0
+189,7,Advisor 07,Retirement Specialists,Midwest,High Value,45-54,$350K+,Conservative,Active,2993390.28,2025-04-15,2025-04-11,230,22984.549999999996,1
+190,7,Advisor 07,Retirement Specialists,Midwest,Emerging,45-54,$100K-$199K,Growth,Active,51717.41,2024-06-12,2024-06-11,537,-1041.98,1
+191,8,Advisor 08,Acquisition,West,Mass Affluent,Under 35,$100K-$199K,Growth,Active,515856.76,2024-03-28,2024-03-28,613,14372.93,1
+192,14,Advisor 14,Relationship Growth,Midwest,Emerging,Under 35,Under $100K,Conservative,Active,83372.77,2025-09-23,,69,4547.75,0
+193,21,Advisor 21,High Value,West,Emerging,35-44,$350K+,Conservative,Active,105549.56,2024-06-10,,539,2912.88,1
+194,16,Advisor 16,Retirement Specialists,Southeast,Core,45-54,Under $100K,Conservative,Active,152267.74,2024-11-12,2024-11-05,384,6969.6900000000005,1
+195,6,Advisor 06,Retirement Specialists,Northeast,Mass Affluent,55-64,$100K-$199K,Conservative,Active,410427.68,2024-04-28,,582,5460.76,1
+196,14,Advisor 14,Relationship Growth,Midwest,Emerging,45-54,$100K-$199K,Moderate,Active,52742.6,2025-09-21,,71,1486.73,0
+197,24,Advisor 24,Retirement Specialists,Southeast,Core,65+,Under $100K,Moderate,Active,315800.25,2024-05-01,2024-05-01,579,7442.29,1
+198,9,Advisor 09,Retirement Specialists,Southeast,Emerging,65+,$200K-$349K,Conservative,Active,0,2026-01-16,2026-01-16,-46,0,0
+199,20,Advisor 20,Relationship Growth,Southeast,Core,55-64,$100K-$199K,Moderate,Active,228063.15,2024-05-30,,550,16461.02,1
+200,10,Advisor 10,Retirement Specialists,Northeast,Core,35-44,$200K-$349K,Aggressive,Active,302013.45,2025-08-21,,102,-2654.3000000000006,1
+201,16,Advisor 16,Retirement Specialists,Southeast,Core,65+,Under $100K,Moderate,Active,248187.61,2024-10-18,2024-10-10,409,9928.89,1
+202,24,Advisor 24,Retirement Specialists,Southeast,Mass Affluent,65+,$100K-$199K,Aggressive,Active,687057.08,2025-03-20,,256,38867.61,1
+203,1,Advisor 01,Acquisition,Midwest,Core,55-64,Under $100K,Growth,Active,143064.59,2025-10-11,2025-10-11,51,1621.13,0
+204,11,Advisor 11,High Value,Midwest,Core,65+,$100K-$199K,Growth,Active,174513.73,2024-09-14,,443,4510.240000000001,1
+205,16,Advisor 16,Retirement Specialists,Southeast,Emerging,55-64,Under $100K,Moderate,Active,93022.5,2024-04-14,,596,-3.7200000000001125,1
+206,12,Advisor 12,Retirement Specialists,Northeast,Mass Affluent,65+,$200K-$349K,Aggressive,Active,822818.64,2025-06-09,,175,52603.46,1
+207,9,Advisor 09,Retirement Specialists,Southeast,Core,Under 35,$100K-$199K,Moderate,Active,151654.19,,,,-81.25000000000011,1
+208,19,Advisor 19,Relationship Growth,West,Core,35-44,$100K-$199K,Moderate,Active,271844.16,2024-02-16,2024-02-16,654,7372.3099999999995,1
+209,24,Advisor 24,Retirement Specialists,Southeast,High Value,55-64,$200K-$349K,Moderate,Active,4872683.67,2024-06-29,2024-06-29,520,371429.41000000003,1
+210,7,Advisor 07,Retirement Specialists,Midwest,Core,55-64,Under $100K,Aggressive,Active,142768.49,2024-05-05,2024-05-05,575,3700.8,1
+211,6,Advisor 06,Retirement Specialists,Northeast,High Value,45-54,$100K-$199K,Growth,Active,2036603.06,2024-05-29,2024-05-27,551,55548.29,1
+212,10,Advisor 10,Retirement Specialists,Northeast,Emerging,Under 35,$200K-$349K,Moderate,Active,0,2025-12-24,2025-12-24,-23,0,0
+213,10,Advisor 10,Retirement Specialists,Northeast,Mass Affluent,Under 35,Under $100K,Conservative,Active,624668.77,2024-09-08,,449,-25588.28,1
+214,8,Advisor 08,Acquisition,West,Emerging,35-44,$100K-$199K,Moderate,Active,78420.61,,,,-503.31999999999994,1
+215,20,Advisor 20,Relationship Growth,Southeast,Emerging,65+,$100K-$199K,Moderate,Active,78746.36,2025-04-23,,222,4933.4400000000005,1
+216,9,Advisor 09,Retirement Specialists,Southeast,Mass Affluent,55-64,Under $100K,Moderate,Active,1023544.54,2025-02-21,,283,38127.700000000004,1
+217,22,Advisor 22,Acquisition,Northeast,Emerging,65+,$100K-$199K,Growth,Active,30847.29,2024-11-04,2024-11-04,392,1410.59,1
+218,19,Advisor 19,Relationship Growth,West,Mass Affluent,55-64,$200K-$349K,Moderate,Active,428975.57,2024-11-03,,393,3840.3900000000003,1
+219,18,Advisor 18,Retirement Specialists,West,Mass Affluent,45-54,Under $100K,Moderate,Active,310137.11,2024-06-02,2024-06-02,547,-6198.65,1
+220,13,Advisor 13,Relationship Growth,Southeast,High Value,55-64,$100K-$199K,Conservative,Active,2035707.72,2025-10-03,2025-10-01,59,56208.5,0
+221,23,Advisor 23,Retirement Specialists,Northeast,Emerging,35-44,$100K-$199K,Moderate,Active,65124.04,2025-10-12,,50,4708.75,0
+222,3,Advisor 03,Acquisition,Southeast,Core,45-54,$100K-$199K,Conservative,Active,149124.86,2025-10-03,,59,13040.96,0
+223,14,Advisor 14,Relationship Growth,Midwest,Emerging,55-64,Under $100K,Moderate,Active,84796.99,2025-04-02,2025-03-27,243,499.4300000000002,1
+224,8,Advisor 08,Acquisition,West,Emerging,55-64,$200K-$349K,Growth,Active,51296.78,2025-06-20,,164,615.61,1
+225,4,Advisor 04,Relationship Growth,West,High Value,65+,$200K-$349K,Conservative,Active,5252838.550000001,2024-02-11,2024-02-11,659,335091.83999999997,1
+226,11,Advisor 11,High Value,Midwest,Core,45-54,$100K-$199K,Growth,Active,259187.1,2024-08-08,2024-08-08,480,2903.0299999999997,1
+227,21,Advisor 21,High Value,West,Emerging,45-54,Under $100K,Moderate,Active,39575.119999999995,2025-08-06,2025-08-06,117,966.4200000000001,0
+228,5,Advisor 05,Relationship Growth,West,Core,55-64,$200K-$349K,Conservative,Active,224516.99,2025-07-14,2025-06-20,140,1829.33,1
+229,15,Advisor 15,Acquisition,Midwest,Emerging,45-54,$200K-$349K,Growth,Active,106181.44,2024-04-16,,594,6418.9,1
+230,3,Advisor 03,Acquisition,Southeast,Emerging,55-64,Under $100K,Aggressive,Active,56450.53,2025-07-03,,151,-739.1400000000001,1
+231,20,Advisor 20,Relationship Growth,Southeast,Emerging,45-54,$200K-$349K,Moderate,Active,108801.96,2024-07-23,2024-07-16,496,762.0399999999997,1
+232,24,Advisor 24,Retirement Specialists,Southeast,Emerging,Under 35,$200K-$349K,Aggressive,Active,151422.08,2024-07-15,2024-07-05,504,3755.01,1
+233,19,Advisor 19,Relationship Growth,West,Mass Affluent,35-44,Under $100K,Moderate,Active,582271.09,2025-06-01,,183,-4139.720000000001,1
+234,1,Advisor 01,Acquisition,Midwest,Mass Affluent,35-44,$100K-$199K,Growth,Active,564607.41,2024-05-08,2024-05-08,572,25558.19,1
+235,20,Advisor 20,Relationship Growth,Southeast,Mass Affluent,35-44,$200K-$349K,Growth,Active,512006.47,2024-07-26,,493,-6235.75,1
+236,19,Advisor 19,Relationship Growth,West,Emerging,55-64,$100K-$199K,Conservative,Active,72733.20000000001,2025-10-19,,43,2893.1000000000004,0
+237,6,Advisor 06,Retirement Specialists,Northeast,Core,35-44,$200K-$349K,Moderate,Active,68804.07,,,,3395.76,1
+238,19,Advisor 19,Relationship Growth,West,Mass Affluent,55-64,$200K-$349K,Moderate,Active,926032.32,2024-11-17,2024-11-17,379,45320.55,1
+239,10,Advisor 10,Retirement Specialists,Northeast,Core,35-44,Under $100K,Moderate,Active,278416.27,2024-05-16,,564,10125.81,1
+240,19,Advisor 19,Relationship Growth,West,Core,65+,$100K-$199K,Aggressive,Active,105025.69,2024-09-14,,443,850.3500000000001,1
+241,12,Advisor 12,Retirement Specialists,Northeast,Mass Affluent,55-64,$100K-$199K,Moderate,Active,1045562.22,2025-10-04,,58,51210.229999999996,0
+242,12,Advisor 12,Retirement Specialists,Northeast,High Value,Under 35,Under $100K,Moderate,Active,5866423.92,2024-10-08,2024-10-03,419,302759.66000000003,1
+243,1,Advisor 01,Acquisition,Midwest,High Value,65+,Under $100K,Moderate,Active,2487461.42,2024-12-18,2024-12-18,348,198265.16999999998,1
+244,24,Advisor 24,Retirement Specialists,Southeast,Mass Affluent,Under 35,$200K-$349K,Growth,Active,402207.58,2025-03-09,2025-03-09,267,10800.6,1
+245,19,Advisor 19,Relationship Growth,West,Core,55-64,$100K-$199K,Moderate,Active,162173.25,2025-05-27,2025-05-22,188,4166.64,1
+246,11,Advisor 11,High Value,Midwest,Core,Under 35,$200K-$349K,Growth,Active,165675.17,2025-09-09,2025-09-09,83,-6338.26,1
+247,19,Advisor 19,Relationship Growth,West,Mass Affluent,55-64,$350K+,Growth,Active,769956.8200000001,2024-03-09,2024-03-09,632,48628.77,1
+248,21,Advisor 21,High Value,West,Emerging,55-64,$100K-$199K,Growth,Active,71680.53,2024-10-29,2024-10-24,398,-89.42000000000002,1
+249,13,Advisor 13,Relationship Growth,Southeast,Emerging,65+,$100K-$199K,Moderate,Active,18839.25,2025-12-13,2025-12-13,-12,538.51,0
+250,24,Advisor 24,Retirement Specialists,Southeast,High Value,35-44,$350K+,Conservative,Active,0,2026-01-16,,-46,0,1
+251,8,Advisor 08,Acquisition,West,High Value,Under 35,$350K+,Aggressive,Active,3045687.64,2024-04-11,2024-04-11,599,53389.46,1
+252,9,Advisor 09,Retirement Specialists,Southeast,Core,65+,$200K-$349K,Moderate,Active,0,2025-12-30,2025-12-30,-29,0,0
+253,23,Advisor 23,Retirement Specialists,Northeast,Emerging,35-44,$100K-$199K,Conservative,Active,31150.08,2024-04-11,2024-04-11,599,1468.11,1
+254,16,Advisor 16,Retirement Specialists,Southeast,Core,Under 35,Under $100K,Conservative,Active,148225.02,2024-04-03,,607,5120.41,1
+255,2,Advisor 02,Acquisition,West,Core,Under 35,Under $100K,Growth,Active,206385.63,,,,4173.69,1
+256,2,Advisor 02,Acquisition,West,Core,35-44,$200K-$349K,Moderate,Active,141290.76,2025-04-14,,231,4891.52,1
+257,13,Advisor 13,Relationship Growth,Southeast,Emerging,35-44,$350K+,Aggressive,Active,39245.6,2024-12-04,,362,491.43000000000006,1
+258,14,Advisor 14,Relationship Growth,Midwest,High Value,55-64,Under $100K,Conservative,Active,1100061.0,2025-10-06,2025-10-06,56,17524.65,0
+259,17,Advisor 17,High Value,Southeast,Mass Affluent,55-64,$200K-$349K,Moderate,Active,453981.53,2025-06-30,2025-06-30,154,13329.44,1
+260,21,Advisor 21,High Value,West,Emerging,55-64,$100K-$199K,Growth,Active,36024.72,2025-03-04,,272,630.4,1
+261,21,Advisor 21,High Value,West,Core,45-54,$200K-$349K,Moderate,Active,277552.51,2024-05-17,,563,7592.65,1
+262,17,Advisor 17,High Value,Southeast,Core,65+,$200K-$349K,Moderate,Active,225435.45,2025-09-12,2025-09-12,80,6283.91,0
+263,14,Advisor 14,Relationship Growth,Midwest,Core,45-54,$100K-$199K,Moderate,Active,341482.71,2024-02-13,2024-02-13,657,11322.84,1
+264,14,Advisor 14,Relationship Growth,Midwest,Mass Affluent,55-64,$200K-$349K,Conservative,Active,721612.84,2024-04-12,2024-04-12,598,61783.020000000004,1
+265,24,Advisor 24,Retirement Specialists,Southeast,Emerging,45-54,$100K-$199K,Moderate,Active,77647.03,2025-02-21,,283,3934.16,1
+266,23,Advisor 23,Retirement Specialists,Northeast,Emerging,45-54,Under $100K,Moderate,Active,41183.11,2024-02-18,2024-02-02,652,1825.1599999999999,1
+267,23,Advisor 23,Retirement Specialists,Northeast,Emerging,45-54,Under $100K,Moderate,Active,101546.99,2024-07-16,2024-07-08,503,-1651.4700000000003,1
+268,22,Advisor 22,Acquisition,Northeast,Core,55-64,$200K-$349K,Moderate,Active,318237.42000000004,2025-01-28,,307,21938.68,1
+269,12,Advisor 12,Retirement Specialists,Northeast,Core,45-54,$350K+,Conservative,Active,177013.18,2025-08-21,2025-08-06,102,-527.69,1
+270,6,Advisor 06,Retirement Specialists,Northeast,Mass Affluent,35-44,$100K-$199K,Growth,Active,334236.84,2024-04-10,2024-04-10,600,7480.94,1
+271,3,Advisor 03,Acquisition,Southeast,Core,65+,$100K-$199K,Moderate,Active,122354.28,2025-10-22,2025-10-04,40,709.3200000000002,0
+272,15,Advisor 15,Acquisition,Midwest,Mass Affluent,45-54,$100K-$199K,Moderate,Active,922327.8400000001,2024-03-05,2024-03-01,636,55005.52,1
+273,19,Advisor 19,Relationship Growth,West,Emerging,Under 35,$100K-$199K,Moderate,Active,104245.35,2024-12-27,,339,851.77,1
+274,10,Advisor 10,Retirement Specialists,Northeast,Emerging,65+,$350K+,Moderate,Active,31098.13,2025-05-22,,193,-272.0,1
+275,8,Advisor 08,Acquisition,West,Core,35-44,$100K-$199K,Moderate,Active,134998.02,2024-03-03,2024-02-26,638,10888.8,1
+276,15,Advisor 15,Acquisition,Midwest,Core,55-64,$100K-$199K,Conservative,Active,143696.21,2024-03-03,2024-03-03,638,5028.84,1
+277,22,Advisor 22,Acquisition,Northeast,Mass Affluent,65+,$200K-$349K,Conservative,Active,504859.08,2024-11-21,2024-11-21,375,34343.83,1
+278,5,Advisor 05,Relationship Growth,West,Emerging,65+,$200K-$349K,Aggressive,Active,75059.19,2024-06-30,2024-06-27,519,3545.6400000000003,1
+279,6,Advisor 06,Retirement Specialists,Northeast,Mass Affluent,55-64,Under $100K,Moderate,Active,226652.78,,,,7354.63,1
+280,19,Advisor 19,Relationship Growth,West,Emerging,55-64,$100K-$199K,Moderate,Active,68124.33,2025-12-05,,-4,1534.07,0
+281,3,Advisor 03,Acquisition,Southeast,Emerging,35-44,$100K-$199K,Aggressive,Active,41033.94,2025-04-05,,240,3671.01,1
+282,10,Advisor 10,Retirement Specialists,Northeast,Emerging,35-44,Under $100K,Moderate,Active,91858.83,2025-03-29,,247,1881.3500000000001,1
+283,20,Advisor 20,Relationship Growth,Southeast,Emerging,55-64,$100K-$199K,Moderate,Active,43532.119999999995,2024-07-10,2024-07-10,509,146.37,1
+284,14,Advisor 14,Relationship Growth,Midwest,Mass Affluent,45-54,Under $100K,Conservative,Active,1229780.99,2024-01-31,,670,58634.49,1

@@ -1,0 +1,384 @@
+account_id,client_id,account_type,open_date,close_date,account_status
+1,1,Brokerage,2025-09-24,,Open
+2,1,Roth IRA,2025-09-26,,Open
+3,2,IRA,2024-10-06,,Open
+4,2,Roth IRA,2024-10-03,,Open
+5,3,IRA,2025-04-19,,Open
+6,4,IRA,2025-06-04,,Open
+7,5,IRA,2025-10-27,,Open
+8,6,Brokerage,2025-06-14,,Open
+9,7,Roth IRA,2024-07-08,,Open
+10,7,Managed Account,2024-07-19,,Open
+11,8,Managed Account,2025-01-27,,Open
+12,9,Roth IRA,2024-04-01,,Open
+13,9,Roth IRA,2024-03-20,,Open
+14,10,Roth IRA,2024-12-09,,Open
+15,11,Roth IRA,2025-08-19,,Open
+16,11,Roth IRA,2025-08-15,,Open
+17,12,Roth IRA,2025-11-28,,Open
+18,13,Roth IRA,2024-08-07,,Open
+19,14,IRA,2025-04-07,,Open
+20,14,Brokerage,2025-04-09,,Open
+21,15,Brokerage,2024-03-13,,Open
+22,15,Managed Account,2024-03-13,,Open
+23,16,Managed Account,2024-05-06,,Open
+24,16,Brokerage,2024-05-23,,Open
+25,17,Roth IRA,2025-08-27,,Open
+26,18,Roth IRA,2024-09-03,,Open
+27,19,Managed Account,2024-03-28,,Open
+28,20,Brokerage,2024-11-04,,Open
+29,20,Managed Account,2024-11-02,,Open
+30,21,Brokerage,2025-03-23,,Open
+31,21,IRA,2025-04-07,,Open
+32,22,IRA,2024-05-01,,Open
+33,23,Roth IRA,2025-12-05,,Open
+34,23,IRA,2025-11-29,,Open
+35,24,Brokerage,2024-09-02,,Open
+36,24,Managed Account,2024-09-07,,Open
+37,25,Brokerage,2024-07-01,,Open
+38,25,Roth IRA,2024-06-27,,Open
+39,26,Brokerage,2024-03-10,,Open
+40,26,Managed Account,2024-02-29,,Open
+41,27,Roth IRA,2024-07-08,,Open
+42,27,IRA,2024-07-22,,Open
+43,28,Managed Account,2024-12-19,,Open
+44,29,Brokerage,2025-12-10,,Open
+45,29,Managed Account,2025-12-04,,Open
+46,30,IRA,2025-11-09,,Open
+47,31,Roth IRA,2024-02-14,,Open
+48,32,Roth IRA,2024-06-02,,Open
+49,32,Brokerage,2024-06-03,,Open
+50,33,Managed Account,2025-07-03,,Open
+51,34,IRA,2025-04-17,,Open
+52,35,Roth IRA,2024-08-05,,Open
+53,36,Brokerage,2024-04-27,,Open
+54,37,Brokerage,2024-12-02,,Open
+55,38,Managed Account,2025-08-12,,Open
+56,38,Brokerage,2025-08-26,,Open
+57,39,Roth IRA,2024-07-29,,Open
+58,40,Managed Account,2024-08-12,,Open
+59,41,Managed Account,2025-12-08,,Open
+60,42,Managed Account,2025-05-13,,Open
+61,42,Roth IRA,2025-05-13,,Open
+62,43,Brokerage,2025-02-18,,Open
+63,44,Roth IRA,2025-02-08,,Open
+64,45,Managed Account,2026-01-10,,Open
+65,46,Brokerage,2026-02-10,,Open
+66,46,Roth IRA,2026-02-12,,Open
+67,47,Brokerage,2024-08-15,,Open
+68,48,Brokerage,2025-12-23,,Open
+69,49,Brokerage,2024-07-27,,Open
+70,50,Managed Account,2025-03-27,,Open
+71,51,Roth IRA,2025-07-10,,Open
+72,51,IRA,2025-06-24,,Open
+73,52,Brokerage,2024-05-08,,Open
+74,53,Managed Account,2025-02-26,,Open
+75,54,IRA,2024-12-18,,Open
+76,54,Roth IRA,2024-12-26,,Open
+77,55,IRA,2025-09-04,,Open
+78,56,IRA,2025-09-18,,Open
+79,56,Brokerage,2025-09-26,,Open
+80,57,Managed Account,2024-04-24,,Open
+81,58,Brokerage,2024-04-27,,Open
+82,58,Managed Account,2024-04-24,,Open
+83,59,Roth IRA,2024-02-28,,Open
+84,60,Managed Account,2025-07-14,,Open
+85,60,Brokerage,2025-07-04,,Open
+86,61,Brokerage,2024-05-01,,Open
+87,62,Roth IRA,2024-09-29,,Open
+88,62,Brokerage,2024-10-19,,Open
+89,63,Managed Account,2025-12-07,,Open
+90,64,Managed Account,2025-08-11,,Open
+91,65,IRA,2024-11-24,,Open
+92,66,Roth IRA,2024-09-18,,Open
+93,67,IRA,2025-03-02,,Open
+94,67,Brokerage,2025-03-04,,Open
+95,68,Managed Account,2024-07-13,,Open
+96,68,Managed Account,2024-07-05,,Open
+97,69,Managed Account,2025-10-10,,Open
+98,70,Managed Account,2024-12-05,,Open
+99,70,IRA,2024-12-17,,Open
+100,71,Managed Account,2025-10-05,,Open
+101,72,Brokerage,2024-04-07,,Open
+102,73,IRA,2025-10-27,,Open
+103,73,Brokerage,2025-10-28,,Open
+104,74,Brokerage,2025-04-09,,Open
+105,74,IRA,2025-04-14,,Open
+106,75,Brokerage,2025-09-29,,Open
+107,76,Brokerage,2025-07-06,,Open
+108,77,IRA,2024-02-18,,Open
+109,78,Managed Account,2025-12-21,,Open
+110,78,Roth IRA,2025-12-12,,Open
+111,79,Roth IRA,2024-05-12,,Open
+112,79,Brokerage,2024-05-16,,Open
+113,80,Roth IRA,2024-08-29,,Open
+114,81,IRA,2024-08-20,,Open
+115,81,Managed Account,2024-09-03,,Open
+116,82,Roth IRA,2024-06-27,,Open
+117,83,Managed Account,2025-11-05,,Open
+118,84,Brokerage,2024-07-22,,Open
+119,85,Brokerage,2024-08-27,,Open
+120,86,Brokerage,2024-07-10,,Open
+121,87,Roth IRA,2025-04-08,,Open
+122,88,IRA,2025-03-08,,Open
+123,89,Brokerage,2025-11-02,,Open
+124,89,Brokerage,2025-11-02,,Open
+125,90,Managed Account,2024-07-20,,Open
+126,91,Roth IRA,2024-10-27,,Open
+127,92,IRA,2025-02-13,,Open
+128,93,Managed Account,2025-08-26,,Open
+129,93,IRA,2025-08-16,,Open
+130,94,Managed Account,2025-05-19,,Open
+131,95,Brokerage,2025-12-28,,Open
+132,96,Brokerage,2024-06-28,,Open
+133,97,Managed Account,2024-03-16,,Open
+134,97,Brokerage,2024-03-23,,Open
+135,98,IRA,2025-08-01,,Open
+136,99,Brokerage,2025-12-10,,Open
+137,100,Brokerage,2025-01-21,,Open
+138,100,Brokerage,2025-01-12,,Open
+139,101,Managed Account,2026-03-11,,Open
+140,102,Managed Account,2024-03-24,,Open
+141,102,IRA,2024-03-27,,Open
+142,103,Brokerage,2024-08-06,,Open
+143,104,Roth IRA,2025-02-27,,Open
+144,105,Managed Account,2025-06-24,,Open
+145,105,Managed Account,2025-06-16,,Open
+146,106,Managed Account,2025-01-27,,Open
+147,107,Roth IRA,2025-07-30,,Open
+148,108,Brokerage,2026-02-27,,Open
+149,109,Brokerage,2024-06-23,,Open
+150,110,IRA,2025-08-16,,Open
+151,111,Managed Account,2025-07-29,,Open
+152,112,IRA,2024-04-15,,Open
+153,113,IRA,2025-12-25,,Open
+154,114,Brokerage,2025-02-08,,Open
+155,115,IRA,2024-10-03,,Open
+156,115,Roth IRA,2024-10-02,,Open
+157,116,Managed Account,2025-11-02,,Open
+158,116,Roth IRA,2025-10-21,,Open
+159,117,Brokerage,2024-12-06,,Open
+160,118,Managed Account,2026-02-16,,Open
+161,119,Roth IRA,2024-03-25,,Open
+162,120,Managed Account,2025-02-18,,Open
+163,120,Brokerage,2025-02-10,,Open
+164,121,Roth IRA,2024-08-24,,Open
+165,122,Managed Account,2025-10-30,,Open
+166,123,Managed Account,2024-07-16,,Open
+167,124,Brokerage,2025-06-22,,Open
+168,125,Managed Account,2024-10-18,,Open
+169,126,IRA,2025-04-06,,Open
+170,127,Brokerage,2024-09-28,,Open
+171,128,Managed Account,2024-06-09,,Open
+172,128,Managed Account,2024-06-13,,Open
+173,129,IRA,2025-09-22,,Open
+174,129,Roth IRA,2025-09-26,,Open
+175,130,Managed Account,2025-03-27,,Open
+176,131,Roth IRA,2026-02-19,,Open
+177,132,IRA,2025-05-06,,Open
+178,133,IRA,2026-01-07,,Open
+179,134,Managed Account,2026-01-10,,Open
+180,135,IRA,2026-01-05,,Open
+181,135,IRA,2026-01-13,,Open
+182,136,IRA,2025-11-27,,Open
+183,137,Roth IRA,2024-07-27,,Open
+184,138,IRA,2025-12-21,,Open
+185,139,Managed Account,2025-08-18,,Open
+186,140,Brokerage,2025-04-12,,Open
+187,140,Managed Account,2025-04-02,,Open
+188,141,Managed Account,2024-07-22,,Open
+189,142,Managed Account,2025-03-26,,Open
+190,143,Roth IRA,2025-05-30,,Open
+191,144,Roth IRA,2025-11-10,,Open
+192,145,Brokerage,2024-06-11,,Open
+193,146,IRA,2026-01-17,,Open
+194,147,IRA,2025-09-23,,Open
+195,148,Roth IRA,2025-09-12,,Open
+196,148,IRA,2025-09-22,,Open
+197,149,Managed Account,2025-02-14,,Open
+198,150,Managed Account,2025-09-26,,Open
+199,151,Roth IRA,2024-08-25,,Open
+200,152,Brokerage,2025-07-27,,Open
+201,152,Managed Account,2025-07-11,,Open
+202,153,Managed Account,2024-07-08,,Open
+203,153,Managed Account,2024-07-02,,Open
+204,154,Roth IRA,2024-10-19,,Open
+205,155,IRA,2024-09-07,,Open
+206,156,IRA,2024-09-12,,Open
+207,156,Managed Account,2024-09-11,,Open
+208,157,Brokerage,2024-05-10,,Open
+209,158,Brokerage,2025-10-21,,Open
+210,158,Managed Account,2025-10-15,,Open
+211,159,IRA,2024-12-31,,Open
+212,160,Brokerage,2025-05-07,,Open
+213,160,Roth IRA,2025-05-07,,Open
+214,161,Brokerage,2025-07-16,,Open
+215,162,Brokerage,2025-10-08,,Open
+216,163,IRA,2025-09-14,,Open
+217,163,Managed Account,2025-09-12,,Open
+218,164,Managed Account,2025-03-09,,Open
+219,164,Brokerage,2025-03-19,,Open
+220,165,Roth IRA,2025-08-23,,Open
+221,166,IRA,2025-09-23,,Open
+222,167,Brokerage,2025-02-26,,Open
+223,167,Managed Account,2025-02-20,,Open
+224,168,Brokerage,2024-05-15,,Open
+225,168,IRA,2024-05-22,,Open
+226,169,Roth IRA,2025-03-14,,Open
+227,170,Roth IRA,2025-09-10,,Open
+228,171,Roth IRA,2024-10-21,,Open
+229,171,Managed Account,2024-10-23,,Open
+230,172,IRA,2024-08-15,,Open
+231,173,IRA,2025-10-24,,Open
+232,173,IRA,2025-11-04,,Open
+233,174,Managed Account,2025-12-15,,Open
+234,175,Brokerage,2025-09-15,,Open
+235,176,Managed Account,2024-07-26,,Open
+236,177,Managed Account,2025-07-04,,Open
+237,178,IRA,2025-06-18,,Open
+238,179,Brokerage,2025-09-16,,Open
+239,180,Brokerage,2024-10-10,,Open
+240,181,Roth IRA,2025-12-19,,Open
+241,182,Managed Account,2025-11-18,,Open
+242,183,Brokerage,2024-09-22,,Open
+243,184,IRA,2025-08-24,,Open
+244,184,Managed Account,2025-09-05,,Open
+245,185,Brokerage,2024-06-24,,Open
+246,185,IRA,2024-06-05,,Open
+247,186,Brokerage,2025-06-05,,Open
+248,187,IRA,2025-12-03,,Open
+249,188,Roth IRA,2025-09-12,,Open
+250,188,Managed Account,2025-09-04,,Open
+251,189,Managed Account,2025-05-02,,Open
+252,190,Roth IRA,2024-07-09,,Open
+253,191,IRA,2024-04-18,,Open
+254,191,Managed Account,2024-04-09,,Open
+255,192,IRA,2025-10-24,,Open
+256,193,Managed Account,2024-06-23,,Open
+257,193,Roth IRA,2024-07-12,,Open
+258,194,Brokerage,2024-11-02,,Open
+259,194,Brokerage,2024-11-17,,Open
+260,195,IRA,2024-05-13,,Open
+261,196,Managed Account,2025-10-19,,Open
+262,197,IRA,2024-05-01,,Open
+263,197,Managed Account,2024-04-21,,Open
+264,198,Managed Account,2026-02-10,,Open
+265,198,Managed Account,2026-02-10,,Open
+266,199,Managed Account,2024-07-20,,Open
+267,200,IRA,2025-10-10,,Open
+268,201,IRA,2024-10-23,,Open
+269,201,Brokerage,2024-10-20,,Open
+270,202,Brokerage,2025-04-07,,Open
+271,203,Roth IRA,2025-11-15,,Open
+272,204,Managed Account,2024-10-21,,Open
+273,205,IRA,2024-04-27,,Open
+274,205,Brokerage,2024-04-30,,Open
+275,206,Managed Account,2025-07-27,,Open
+276,206,Managed Account,2025-07-15,,Open
+277,207,Roth IRA,2025-06-14,,Open
+278,208,Brokerage,2024-03-12,,Open
+279,209,Roth IRA,2024-07-03,,Open
+280,210,Brokerage,2024-05-16,,Open
+281,211,Roth IRA,2024-06-01,,Open
+282,211,Roth IRA,2024-05-31,,Open
+283,212,Managed Account,2026-01-20,,Open
+284,212,Roth IRA,2026-02-03,,Open
+285,213,Managed Account,2024-10-02,,Open
+286,214,IRA,2025-11-06,,Open
+287,215,IRA,2025-06-02,,Open
+288,216,IRA,2025-04-13,,Open
+289,216,Managed Account,2025-04-14,,Open
+290,217,Roth IRA,2024-11-14,,Open
+291,218,Roth IRA,2024-11-22,,Open
+292,218,IRA,2024-11-18,,Open
+293,219,Roth IRA,2024-07-01,,Open
+294,219,Roth IRA,2024-07-01,,Open
+295,220,IRA,2025-11-13,,Open
+296,220,Brokerage,2025-11-20,,Open
+297,221,IRA,2025-11-12,,Open
+298,222,Roth IRA,2025-10-29,,Open
+299,223,Managed Account,2025-05-13,,Open
+300,224,Roth IRA,2025-06-10,,Open
+301,224,Roth IRA,2025-06-08,,Open
+302,225,IRA,2024-02-20,,Open
+303,225,Managed Account,2024-03-03,,Open
+304,226,Managed Account,2024-09-05,,Open
+305,227,Roth IRA,2025-08-30,,Open
+306,227,Managed Account,2025-08-23,,Open
+307,228,Brokerage,2025-08-09,,Open
+308,229,Managed Account,2024-04-20,,Open
+309,229,Roth IRA,2024-04-19,,Open
+310,230,Brokerage,2025-08-25,,Open
+311,231,Brokerage,2024-08-08,,Open
+312,232,Brokerage,2024-08-14,,Open
+313,233,Managed Account,2025-05-31,,Open
+314,233,Roth IRA,2025-05-30,,Open
+315,234,Managed Account,2024-05-07,,Open
+316,235,Brokerage,2024-08-25,,Open
+317,236,IRA,2025-11-12,,Open
+318,236,Brokerage,2025-11-12,,Open
+319,237,Roth IRA,2025-01-13,,Open
+320,238,IRA,2024-11-15,,Open
+321,239,Roth IRA,2024-06-28,,Open
+322,239,Managed Account,2024-06-26,,Open
+323,240,Managed Account,2024-10-17,,Open
+324,240,Roth IRA,2024-10-16,,Open
+325,241,Brokerage,2025-11-20,,Open
+326,242,Brokerage,2024-10-29,,Open
+327,243,Roth IRA,2025-01-04,,Open
+328,244,Roth IRA,2025-03-27,,Open
+329,245,Roth IRA,2025-06-14,,Open
+330,245,Managed Account,2025-06-12,,Open
+331,246,Brokerage,2025-09-02,,Open
+332,247,Brokerage,2024-04-25,,Open
+333,247,Brokerage,2024-04-17,,Open
+334,248,IRA,2024-12-04,,Open
+335,249,Managed Account,2026-01-02,,Open
+336,249,IRA,2025-12-30,,Open
+337,250,Brokerage,2026-03-05,,Open
+338,251,Roth IRA,2024-04-29,,Open
+339,252,Managed Account,2026-01-20,,Open
+340,253,Managed Account,2024-05-07,,Open
+341,254,IRA,2024-05-23,,Open
+342,255,IRA,2024-09-21,,Open
+343,256,Roth IRA,2025-04-22,,Open
+344,256,IRA,2025-04-19,,Open
+345,257,Roth IRA,2024-12-13,,Open
+346,258,IRA,2025-10-22,,Open
+347,259,Managed Account,2025-07-04,,Open
+348,260,IRA,2025-04-02,,Open
+349,260,IRA,2025-03-30,,Open
+350,261,Roth IRA,2024-05-19,,Open
+351,262,Brokerage,2025-10-03,,Open
+352,262,Brokerage,2025-10-10,,Open
+353,263,Brokerage,2024-03-07,,Open
+354,264,IRA,2024-04-30,,Open
+355,265,Managed Account,2025-04-07,,Open
+356,265,Managed Account,2025-04-08,,Open
+357,266,IRA,2024-03-20,,Open
+358,267,Roth IRA,2024-07-21,,Open
+359,268,Brokerage,2025-03-02,,Open
+360,268,Managed Account,2025-03-10,,Open
+361,269,Brokerage,2025-10-02,,Open
+362,270,Managed Account,2024-05-16,,Open
+363,270,Roth IRA,2024-06-01,,Open
+364,271,Managed Account,2025-10-29,,Open
+365,272,IRA,2024-03-23,,Open
+366,272,IRA,2024-03-12,,Open
+367,273,Brokerage,2025-02-22,,Open
+368,274,Managed Account,2025-06-05,,Open
+369,275,Managed Account,2024-04-02,,Open
+370,276,Brokerage,2024-03-18,,Open
+371,277,Roth IRA,2024-11-17,,Open
+372,278,Brokerage,2024-06-29,,Open
+373,279,IRA,2024-08-26,,Open
+374,279,Managed Account,2024-08-16,,Open
+375,280,Roth IRA,2025-12-23,,Open
+376,280,IRA,2025-12-25,,Open
+377,281,IRA,2025-05-13,,Open
+378,282,Managed Account,2025-04-13,,Open
+379,282,IRA,2025-04-07,,Open
+380,283,Brokerage,2024-07-25,,Open
+381,283,IRA,2024-07-21,,Open
+382,284,Roth IRA,2024-03-07,,Open
+383,284,Roth IRA,2024-03-02,,Open
