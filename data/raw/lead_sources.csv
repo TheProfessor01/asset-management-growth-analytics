@@ -1,8 +1,0 @@
-lead_source_id,lead_source_name,channel,source_category,is_paid_source
-1,Website Consultation Request,Digital,Inbound,True
-2,Retirement Planning Webinar,Digital,Education,True
-3,Employer Plan Rollover,Workplace,Rollover,False
-4,Client Referral,Referral,Referral,False
-5,Paid Search,Digital,Paid Media,True
-6,Branch Event,Event,Local Event,True
-7,Existing Client Expansion,Relationship,Cross-Sell,False
