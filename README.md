@@ -7,7 +7,6 @@ This folder contains the synthetic data foundation for the Asset Management Grow
 - `scripts/generate_asset_management_data.py`: Python generator for raw CSV files.
 - `sql/create_tables.sql`: PostgreSQL table definitions, keys, constraints, and indexes.
 - `sql/import_csvs.sql`: PostgreSQL `\copy` commands for loading generated CSVs.
-- `data/raw/`: Output location for generated CSV files.
 
 ## Generate Data
 
