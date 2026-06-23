@@ -1,65 +1,136 @@
-# Asset Management Growth Analytics Dashboard
+# Asset Management Growth Analytics
 
-This folder contains the synthetic data foundation for the Asset Management Growth Analytics portfolio project. It creates the source-style data and PostgreSQL loading assets used by downstream SQL analysis and a Tableau/dashboard layer.
+This project models an asset management analytics workflow from synthetic source data through SQL-ready outputs for dashboarding. It is designed as a portfolio project for analyzing AUM growth, net flows, fund performance, account behavior, and client/fund segmentation.
 
-## Contents
+The repo contains a reproducible Python data generator, PostgreSQL setup scripts, validation queries, and Tableau-ready CSV outputs.
 
-- `scripts/generate_asset_management_data.py`: Python generator for raw CSV files.
-- `sql/create_tables.sql`: PostgreSQL table definitions, keys, constraints, and indexes.
-- `sql/import_csvs.sql`: PostgreSQL `\copy` commands for loading generated CSVs.
+## Business Questions
+
+This project is built around questions an asset management analytics team might ask:
+
+- Which funds are driving the most AUM?
+- Which funds have the strongest and weakest net flows?
+- How do inflows and outflows break down by transaction type?
+- How do monthly net flows vary by fund?
+- How should growth be separated between client flows and market movement?
+- Which fund categories, account types, or client segments should become dashboard filters?
+
+## Repository Structure
+
+```text
+scripts/
+  generate_asset_management_data.py     # Synthetic source-data generator
+
+sql/
+  SetupAndAnalysis/
+    create_tables.sql                   # PostgreSQL table definitions
+    import_csvs.sql                     # PostgreSQL CSV import commands
+    validation.sql                      # Validation and exploratory SQL
+
+  Tableau Tables/
+    Top_10_Funds.csv                    # Top funds by AUM
+    Highest Net Flow Funds.csv          # Funds with highest net flow
+    Lowest Net Flwo Funds.csv           # Funds with lowest net flow
+    Montly Net Flow by fund*.csv        # Monthly fund-level net flow outputs
+    Inflow Percentages.csv              # Inflow mix by transaction type
+    Outflow Percentages.csv             # Outflow mix by transaction type
+    Total by Category.csv               # Transaction totals by category
+
+data/raw/
+  Generated CSV files live here locally and are ignored by Git.
+```
+
+## Data Model
+
+The generated dataset uses a simple dimensional model:
+
+- `dim_clients`: client segment, geography, join date, age band, risk profile, and acquisition channel
+- `dim_accounts`: account type, open date, close date, and account status
+- `dim_funds`: fund category, asset class, expense ratio, and inception date
+- `fact_transactions`: contributions, withdrawals, transfers, dividends, and fees
+- `fact_daily_balances`: daily account-fund market values
+- `fact_market_returns`: daily fund returns
+
+Transaction amounts are signed. Contributions, transfer-ins, and dividend reinvestments are positive; withdrawals, transfer-outs, and fees are negative.
 
 ## Generate Data
 
-From this folder:
+From the repository root:
 
 ```bash
 python3 scripts/generate_asset_management_data.py
 ```
 
-Default output covers `2021-01-01` through `2025-12-31` and generates:
+The default output covers `2021-01-01` through `2025-12-31` and generates:
 
 - 10,000 clients
 - 12,000-18,000 accounts
 - 52 funds
 - At least 525,000 transactions
-- Daily account-fund balance records for active account-fund combinations
-- Daily fund returns for all funds
+- Daily account-fund balance records
+- Daily market returns for all funds
 
-## GitHub Sync Note
+For a smaller local test dataset:
 
-The generated files in `data/raw/` can be recreated and are intentionally ignored by Git. The default `fact_daily_balances.csv` is roughly 592 MB, which is larger than GitHub's standard per-file limit. Commit the generator, SQL, and documentation; regenerate the raw CSVs locally when needed.
+```bash
+python3 scripts/generate_asset_management_data.py \
+  --clients 500 \
+  --min-accounts 650 \
+  --max-accounts 800 \
+  --funds 12 \
+  --transactions 25000
+```
 
-## Tables
+## Load Into PostgreSQL
 
-`dim_clients` contains synthetic household, institution, and retirement-plan clients with segment, geography, join date, age band, risk profile, and acquisition channel.
+Create the database and run the DDL:
 
-`dim_accounts` contains client accounts with type, open date, optional close date, and status. Some accounts close each year.
+```bash
+createdb asset_management_growth
+psql -d asset_management_growth -f "sql/SetupAndAnalysis/create_tables.sql"
+psql -d asset_management_growth
+```
 
-`dim_funds` contains synthetic funds across index funds, ETFs, target date funds, bond funds, active equity funds, and money market funds.
+Inside `psql`, set the project root and import the CSVs:
 
-`fact_transactions` contains contributions, withdrawals, transfers, dividend reinvestments, and fees. Amounts are signed: inflows are positive, outflows and fees are negative.
+```sql
+\set project_root '/absolute/path/to/asset_management_growth_analytics'
+\i 'sql/SetupAndAnalysis/import_csvs.sql'
+```
 
-`fact_daily_balances` contains daily market values by account and fund for active account-fund combinations.
+Then use:
 
-`fact_market_returns` contains daily returns by fund. Returns include down periods, volatile periods, and uneven recovery periods.
+```bash
+psql -d asset_management_growth -f "sql/SetupAndAnalysis/validation.sql"
+```
+
+to run validation and exploratory checks.
+
+## Tableau Outputs
+
+The `sql/Tableau Tables/` folder contains CSV outputs intended for dashboard development, including:
+
+- top funds by AUM
+- highest and lowest net-flow funds
+- monthly fund-level net flows
+- inflow and outflow composition by transaction type
+- transaction totals by category
+
+These files can be used as Tableau inputs or as examples of the analytical outputs produced from the source model.
 
 ## Generation Assumptions
 
-- Institutional and retirement plan clients receive larger starting balances and larger transaction amounts than retail clients.
-- Retail clients are more likely to have multiple accounts, but their balances are generally smaller.
+- Institutional and retirement-plan clients receive larger balances and transaction amounts than retail clients.
+- Retail clients are more likely to have multiple smaller accounts.
 - ETFs and target date funds receive stronger contribution and transfer-in behavior.
 - Money market funds receive more activity during volatile periods.
 - Older age bands have a higher withdrawal tendency.
-- Account retention is high overall, with retail accounts closing more often than institutional accounts.
+- Closed accounts are drained through transfer-out activity.
 - Daily balances are generated by applying transactions and market returns over time.
-- The dataset includes random noise, so flows, returns, and balances are not perfectly smooth.
+- Random noise is included so flows, returns, and balances are not artificially smooth.
 
-## Next Steps For The Analyst
+## GitHub Data Note
 
-- How should AUM be calculated?
-- How should net new assets be defined?
-- How should retention be measured?
-- How should growth be attributed between flows and market performance?
-- Which transaction types should count as organic flows?
-- Should closed accounts be included in historical retention calculations?
-- How should fund category, client segment, and account type be used in dashboard filters?
+Generated raw CSVs are intentionally ignored by Git. The default `fact_daily_balances.csv` can be hundreds of megabytes, which is too large for normal GitHub commits.
+
+Commit the generator, SQL, documentation, and lightweight Tableau outputs. Regenerate raw source CSVs locally when needed.
